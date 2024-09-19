@@ -465,6 +465,30 @@ ul {
 .gallery .container .box .image:hover img {
   transform: rotate(7deg) scale(1.2);
 }
+
+/* Features */
+.features {
+  padding: var(--main-padding-top-bottom) 0;
+  position: relative;
+  background-color: #ffff;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+.features .container .box {
+  text-align: center;
+  border: 1px solid var(--background-color);
+}
+.features .container .box .img-holder {
+  position: relative;
+}
+.features .container .box .img-holder img {
+  max-width: 100%;
+  width: 100%;
+}
+
 /* Animation */
 @keyframes up-and-down {
   0%,
