@@ -611,14 +611,22 @@ ul {
   border: 10px solid var(--section-background);
 }
 .testimonials .container .box h3 {
-  padding: 15px;
+  margin: 0 0 10px;
+  color: var(--main-color);
 }
 .testimonials .container .box .title {
+  color: var(--paragraph-color);
+  margin-bottom: 10px;
+  display: block;
 }
 .testimonials .container .box .rate .filled {
+  color: #ffc107;
 }
 .testimonials .container .box p {
   color: var(--background-color);
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 /* Animation */
