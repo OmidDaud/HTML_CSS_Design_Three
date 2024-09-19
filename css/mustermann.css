@@ -502,12 +502,10 @@ ul {
 .features .container .box:hover .img-holder::after {
   border-width: 175px 500px 170px 0;
 }
-
 .features .container .box .img-holder img {
   max-width: 100%;
   width: 100%;
 }
-
 .features .container .box h2 {
   position: relative;
   font-size: 40px;
@@ -523,7 +521,6 @@ ul {
   width: calc(100% - 30px);
   display: block;
 }
-
 .features .container .box p {
   padding: 30px;
   line-height: 2;
@@ -542,7 +539,6 @@ ul {
   border-radius: 7px;
   transition: var(--main-transition);
 }
-
 .features .container .quality .img-holder::before {
   background-color: rgb(244 64 54 / 60%);
 }
@@ -556,7 +552,6 @@ ul {
   background-size: 200% 100%;
   background-position: right bottom;
 }
-
 .features .container .passion .img-holder::before {
   background-color: rgb(0 150 136 / 60%);
 }
@@ -570,7 +565,6 @@ ul {
   background-size: 200% 100%;
   background-position: right bottom;
 }
-
 .features .container .time .img-holder::before {
   background-color: rgb(3 196 244 / 60%);
 }
@@ -584,7 +578,6 @@ ul {
   background-size: 200% 100%;
   background-position: right bottom;
 }
-
 .features .container .box:hover a {
   background-position: left bottom;
   color: #ffff;
