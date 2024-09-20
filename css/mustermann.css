@@ -634,7 +634,6 @@ ul {
   padding: var(--main-padding-top-bottom) 0;
   position: relative;
 }
-
 .team .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -658,17 +657,14 @@ ul {
   width: calc(100% - 60px);
   z-index: -2;
 }
-
 .team .container .box::after {
   width: 0;
   background-color: #e4e4e4;
   z-index: -1;
 }
-
 .team .container .box:hover::after {
   width: calc(100% - 60px);
 }
-
 .team .container .box .data {
   display: flex;
   align-items: center;
@@ -682,7 +678,6 @@ ul {
 .team .container .box:hover .data img {
   filter: grayscale(100%);
 }
-
 .team .container .box .data .social {
   width: 75px;
   display: flex;
