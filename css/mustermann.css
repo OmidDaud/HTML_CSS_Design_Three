@@ -865,6 +865,11 @@ ul {
   color: var(--main-color);
 }
 
+.our-skills {
+  padding: var(--main-padding-top-bottom) 0;
+  position: relative;
+  background-color: #ffff;
+}
 /* Animation */
 @keyframes up-and-down {
   0%,
