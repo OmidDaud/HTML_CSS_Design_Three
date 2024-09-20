@@ -843,12 +843,13 @@ ul {
   left: 0;
   top: 0;
   height: 100%;
-  width: 80px;
+  width: 75px;
   font-size: 30px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 5px;
 }
 .services .container .box .info::after {
   content: "";
