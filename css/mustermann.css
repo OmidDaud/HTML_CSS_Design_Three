@@ -865,11 +865,57 @@ ul {
   color: var(--main-color);
 }
 
+/* Our_Skills  */
 .our-skills {
   padding: var(--main-padding-top-bottom) 0;
   position: relative;
   background-color: #ffff;
 }
+.our-skills .container {
+  display: flex;
+  align-items: center;
+}
+.our-skills .container img {
+  max-width: 100%;
+}
+@media (max-width: 991px) {
+  .our-skills .container img {
+    display: none;
+  }
+}
+.our-skills .container .skills {
+  flex: 1;
+}
+.our-skills .container .skills .skill {
+  position: relative;
+}
+.our-skills .container .skills .skill h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-skills .container .skills .skill h3 span {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: var(--main-color);
+}
+.our-skills .container .skills .skill .the-progress {
+  height: 30px;
+  background-color: #eee;
+  position: relative;
+  margin: 20px 0;
+}
+.our-skills .container .skills .skill .the-progress span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: var(--main-color);
+  transition: width 0.5s linear;
+}
+
 /* Animation */
 @keyframes up-and-down {
   0%,
