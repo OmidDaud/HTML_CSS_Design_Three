@@ -1312,7 +1312,7 @@ ul {
   letter-spacing: 2px;
 }
 .videos .container .holder .preview:hover .info {
-  color: #000;
+  color: var(--paragraph-color);
 }
 
 /* Statistics */
