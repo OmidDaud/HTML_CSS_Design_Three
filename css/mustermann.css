@@ -1536,7 +1536,7 @@ ul {
 }
 .footer .container .box .social {
   display: flex;
-  gap: 5px;
+  gap: 12px;
 }
 @media (max-width: 767px) {
   .footer .container .box .social {
@@ -1556,6 +1556,7 @@ ul {
   height: 50px;
   font-size: 20px;
   transition: var(--main-transition);
+  border-radius: 7px;
 }
 .footer .container .box .social .facebook:hover {
   background-color: #1877f2;
@@ -1629,6 +1630,7 @@ ul {
   border: 3px solid #ffff;
   margin: 2px;
   transition: var(--main-transition);
+  border-radius: 7px;
 }
 .footer .copyright {
   padding: 25px 0;
