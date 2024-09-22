@@ -1301,7 +1301,6 @@ ul {
 .videos .container .holder .preview:hover img {
   filter: grayscale(50%);
 }
-
 .videos .container .holder .preview .info {
   padding: 20px;
   background-color: #ffff;
