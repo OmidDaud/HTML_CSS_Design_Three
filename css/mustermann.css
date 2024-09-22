@@ -1315,6 +1315,87 @@ ul {
   color: #000;
 }
 
+/* Statistics */
+.stats {
+  padding: var(--main-padding-top-bottom) 0;
+  position: relative;
+  background-image: url("../imgs/stats.jpg");
+  background-size: cover;
+  min-height: 300px;
+}
+.stats::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255 / 95%);
+}
+.stats h2 {
+  font-weight: bold;
+  font-size: 40px;
+  width: fit-content;
+  margin: 0 auto 50px;
+  position: relative;
+  letter-spacing: -1px;
+}
+@media (max-width: 767px) {
+  .stats h2 {
+    font-size: 30px;
+  }
+}
+.stats .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.stats .container .box {
+  position: relative;
+  background-color: #ffff;
+  padding: 30px 15px;
+  text-align: center;
+  opacity: 0.7;
+  transition: var(--main-transition);
+}
+.stats .container .box::before,
+.stats .container .box::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: var(--main-color);
+  transition: 1s;
+  height: 0;
+}
+.stats .container .box::before {
+  left: 0;
+  bottom: 0;
+}
+.stats .container .box::after {
+  top: 0;
+  right: 0;
+}
+.stats .container .box:hover {
+  opacity: 1;
+}
+.stats .container .box:hover::before,
+.stats .container .box:hover::after {
+  height: 100%;
+}
+.stats .container .box .number {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stats .container .box .text {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
 /* Animation */
 @keyframes up-and-down {
   0%,
