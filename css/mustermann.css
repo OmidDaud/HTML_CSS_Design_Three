@@ -1631,7 +1631,7 @@ ul {
   margin: 2px;
   transition: var(--main-transition);
 }
-.footer .container .copyright {
+.footer .copyright {
   padding: 25px 0;
   text-align: center;
   color: white;
